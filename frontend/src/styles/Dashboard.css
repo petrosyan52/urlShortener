@@ -1,0 +1,149 @@
+.dashboard-container {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logout-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.logout-button:hover {
+    background-color: #c9302c;
+}
+
+.url-form {
+    margin-bottom: 20px;
+}
+
+.url-input {
+    width: 80%;
+    padding: 10px 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.url-input:focus {
+    border-color: #0275d8;
+}
+
+.shorten-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #0275d8;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.shorten-button:hover {
+    background-color: #025aa5;
+}
+
+.url-list {
+    list-style: none;
+    padding: 0;
+}
+
+.url-item {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.url-short-link {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+.url-short-link:hover {
+    text-decoration: underline;
+}
+
+.url-created {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 6px;
+}
+
+.copy-button {
+    margin-left: 10px;
+    padding: 4px 10px;
+    font-size: 0.9em;
+    cursor: pointer;
+    border: 1px solid #007bff;
+    background-color: white;
+    color: #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.copy-button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.copy-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+.slug-input {
+    padding: 4px 8px;
+    margin-right: 8px;
+    font-size: 1em;
+    width: 150px;
+}
+
+.save-button,
+.cancel-button,
+.edit-button {
+    padding: 4px 10px;
+    margin-left: 5px;
+    font-size: 0.9em;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #007bff;
+    background-color: white;
+    color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+.save-button:hover,
+.edit-button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.cancel-button:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+.save-button:focus,
+.cancel-button:focus,
+.edit-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
